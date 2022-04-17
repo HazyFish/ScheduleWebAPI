@@ -23,4 +23,4 @@ jobs:
           docker buildx build . \
           --platform linux/amd64,linux/arm64 \
           --output type=registry \
-          --tag ghcr.io/HazyFish/schedule-webapi:latest
+          --tag ghcr.io/hazyfish/schedule-webapi:latest
